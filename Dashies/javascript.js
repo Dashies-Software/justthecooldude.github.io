@@ -1,10 +1,10 @@
 $(document).ready(function (){
     $("#main").click(function(){
-        ReadFile();
+        LoadDownloads();
     });
 });
 
-function ReadFile() {
+function LoadDownloads() {
     var xhttp = new XMLHttpRequest();
     var text;
     xhttp.onreadystatechange = function() {
@@ -22,7 +22,8 @@ function ReadFile() {
     var outputHtml;
     for(var i = 0; i < downloadList.length; i++) {
         var download = downloadList[i];
-        outputHtml = download.getElementsByTagName("name").values;
+        outputHtml = download.getElementsByTagName("name").values[0];
+        console.log(outputHtml);
     }
 
     $("#main").innerHTML = outputHtml;
