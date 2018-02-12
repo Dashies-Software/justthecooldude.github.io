@@ -9,7 +9,7 @@ function ReadFile() {
     var text;
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            text = this.responseText;
+            text = xhttp.responseText;
         }
     };
     xhttp.open("GET", "downloads.xml", true);
