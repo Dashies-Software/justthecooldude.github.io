@@ -4,7 +4,7 @@ $(document).ready(function (){
     });
 });
 
-
+var updatethething;
 function ReadFile(filepath){
     var xhttp = new XMLHttpRequest;
     xhttp.onreadystatechange = function(){
