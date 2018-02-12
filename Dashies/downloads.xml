@@ -1,4 +1,6 @@
-<downloadList>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<download_list>
     <download>
         <name>generic payload</name>
         <url>
@@ -7,4 +9,4 @@
         </url>
         <desc>real amaze payload mkay</desc>
     </download>
-</downloadList>
+</download_list>

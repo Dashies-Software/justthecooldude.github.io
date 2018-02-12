@@ -1,17 +1,29 @@
 $(document).ready(function (){
     $("#main").click(function(){
-        ReadFile("downloads.xml");
+        ReadFile();
     });
 });
 
-function ReadFile(filepath) {
+function LoadDownloadsFile() {
     var xhttp = new XMLHttpRequest();
+    var text;
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("main").innerHTML =
-            this.responseText;
+            text = this.responseText;
         }
     };
-    xhttp.open("GET", filepath, true);
+    xhttp.open("GET", "downloads.xml", true);
     xhttp.send();
+
+    var parser, downloadList;
+    parser = new DOMParser;
+    downloadList = parser.parseFromString(text, "text/xml").getElementsByTagName("download_list");
+
+    var outputHtml;
+    for(var i = 0; 0 < downloadList.length; i++) {
+        var download = downloadList[i];
+        outputHtml += download.getElementsByTagName("name").values;
+    }
+
+    $("#main").innerHTML = outputHtml;
 }
