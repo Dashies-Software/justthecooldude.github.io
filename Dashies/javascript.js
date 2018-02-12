@@ -23,12 +23,12 @@ function LoadDownloads() {
 
 function parseXmlToList(xmlText){
     var parser = new DOMParser;
-    var downloadList = parser.parseFromString(text, "text/xml");
+    var downloadList = parser.parseFromString(text, "text/xml").getElementsByTagName("download");
 
     var outputHtml;
     for(var i = 0; i < downloadList.length; i++) {
         var download;
-        outputHtml = downloadList[0].childNodes[i].childNodes[0].nodeValue;
+        outputHtml = downloadList[i].childNodes[0].nodeValue;
         console.log(outputHtml);
     }
 
