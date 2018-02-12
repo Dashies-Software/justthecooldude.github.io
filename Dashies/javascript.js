@@ -25,5 +25,5 @@ function ReadFile() {
         outputHtml += download.getElementsByTagName("name").values;
     }
 
-    $("#main").innerHTML = outputHtml;
+    $(document).getElementById("main").innerHTML = outputHtml;
 }
