@@ -14,17 +14,11 @@ function LoadDownloads() {
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             text = xhttp.responseText;
+            console.log(text);
         }
     };
     xhttp.open("GET", "downloads.xml", true);
-
-    console.log(text);
-
-    xhttp.send();
-
-    console.log(text);
-
-    
+    xhttp.send();    
 }
 
 function parseXmlToList(xmlText){
