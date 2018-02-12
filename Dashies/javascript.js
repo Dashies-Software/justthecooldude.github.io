@@ -15,14 +15,14 @@ function LoadDownloads() {
     xhttp.open("GET", "downloads.xml", true);
     xhttp.send();
 
-    var parser, downloadList;
+    var parser;
     parser = new DOMParser;
-    downloadList = parser.parseFromString(text, "text/xml").getElementsByTagName("download_list");
+    var downloadList = parser.parseFromString(text, "text/xml");
 
     var outputHtml;
     for(var i = 0; i < downloadList.length; i++) {
-        var download = downloadList[i];
-        outputHtml = download.getElementsByTagName("name").values[0];
+        var download;
+        outputHtml = downloadList[0].childNodes[i].childNodes[0].nodeValue;
         console.log(outputHtml);
     }
 
