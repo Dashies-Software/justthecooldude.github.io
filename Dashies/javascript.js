@@ -13,7 +13,12 @@ function LoadDownloads() {
         }
     };
     xhttp.open("GET", "downloads.xml", true);
+
+    console.log(text);
+
     xhttp.send();
+
+    console.log(text);
 
     var parser;
     parser = new DOMParser;
