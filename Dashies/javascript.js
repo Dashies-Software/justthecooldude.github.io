@@ -1,6 +1,6 @@
 $(document).ready(function (){
     $("#main").click(function(){
-        ReadFile("downloads.xml");
+        ReadFile("downsloads.xml");
     });
 });
 
@@ -13,6 +13,6 @@ function ReadFile(filepath){
             this.responseText();
         }
     }
-    xhttp.open("GET", "filepath", true);
+    xhttp.open("GET", filepath, true);
     xhttp.send();
 }
