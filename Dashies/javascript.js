@@ -22,8 +22,8 @@ function ReadFile() {
     var outputHtml;
     for(var i = 0; i < downloadList.length; i++) {
         var download = downloadList[i];
-        outputHtml += download.getElementsByTagName("name").values;
+        outputHtml = download.getElementsByTagName("name").values;
     }
 
-    $("main").innerHTML = outputHtml;
+    $("#main").innerHTML = outputHtml;
 }
