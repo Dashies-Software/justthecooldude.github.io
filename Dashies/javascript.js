@@ -1,6 +1,6 @@
 $(document).ready(function (){
     $("#main").click(function(){
-        ReadFile("file://downloads.xml");
+        ReadFile("downloads.xml");
     });
 });
 
