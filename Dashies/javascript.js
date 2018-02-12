@@ -1,12 +1,16 @@
 $(document).ready(function (){
-    $("#main").click(function(){
+    $("#Load").click(function(){
         LoadDownloads();
+    });    
+    $("#Parse").click(function(){
+        parseXmlToList(Text);
     });
 });
 
+var text;
+
 function LoadDownloads() {
     var xhttp = new XMLHttpRequest();
-    var text;
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             text = xhttp.responseText;
@@ -20,8 +24,11 @@ function LoadDownloads() {
 
     console.log(text);
 
-    var parser;
-    parser = new DOMParser;
+    
+}
+
+function parseXmlToList(xmlText){
+    var parser = new DOMParser;
     var downloadList = parser.parseFromString(text, "text/xml");
 
     var outputHtml;
@@ -31,5 +38,5 @@ function LoadDownloads() {
         console.log(outputHtml);
     }
 
-    $("#main").innerHTML = outputHtml;
+    console.log("Final: " + outputHtml);
 }
