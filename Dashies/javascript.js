@@ -4,7 +4,7 @@ $(document).ready(function (){
     });
 });
 
-function LoadDownloadsFile() {
+function ReadFile() {
     var xhttp = new XMLHttpRequest();
     var text;
     xhttp.onreadystatechange = function() {
