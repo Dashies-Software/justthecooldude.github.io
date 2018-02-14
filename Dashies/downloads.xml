@@ -4,7 +4,7 @@
     <download>
         <name>generic payload</name>
         <url>
-            <con>https://realwebsite.really/download/payload.file</con>
+            <con>downloadsLocation/gey.txt</con>
             <gui>https://realwebsite.really/download/payloadgui.file</gui>
         </url>
         <desc>real amaze payload mkay</desc>

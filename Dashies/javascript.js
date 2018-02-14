@@ -31,16 +31,37 @@ $(document).ready(function (){
     parseXmlToList(xmlString);
 });
 
+var onlineXmlDoc;
 function LoadDownloads() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            xmlString = xhttp.responseText;
-            console.log(xmlString);
+            onlineXmlDoc = xhttp.responseXML;
+
+            var downloads = onlineXmlDoc.getElementsByTagName("download");
+
+            if(downloads.length <= 0) return;
+            var htmlBuffer = "";
+        
+            for(var i = 0; i < downloads.length; i++){
+                htmlBuffer += "<br><div class='download'><span class='downloadName'>"
+                + downloads[i].childNodes[0].childNodes[0].nodeValue
+                + "</span><a href='"
+                + downloads[i].childNodes[1].childNodes[0].childNodes[0].nodeValue
+                + "' download>CON</a><a href='"
+                + downloads[i].childNodes[1].childNodes[1].childNodes[0].nodeValue
+                + "' download>GUI</a><div class='downloadDesc'>"
+                + downloads[i].childNodes[2].childNodes[0].nodeValue
+                + "</div></div>"
+            }
+        
+            $("#downloads").html(htmlBuffer);
         }
     };
     xhttp.open("GET", "downloads.xml", true);
     xhttp.send();
+
+
 }
 
 function parseXmlToList(_xmlString){
@@ -56,15 +77,15 @@ function parseXmlToList(_xmlString){
 
     for(var i = 0; i < downloads.length; i++){
         htmlBuffer += "<br><div class='download'><span class='downloadName'>"
-        + xmlDoc.getElementsByTagName("download")[i].childNodes[0].childNodes[0].nodeValue
+        + downloads[i].childNodes[0].childNodes[0].nodeValue
         + "</span><a href='"
-        + xmlDoc.getElementsByTagName("download")[i].childNodes[1].childNodes[0].childNodes[0].nodeValue
+        + downloads[i].childNodes[1].childNodes[0].childNodes[0].nodeValue
         + "' download>CON</a><a href='"
-        + xmlDoc.getElementsByTagName("download")[i].childNodes[1].childNodes[1].childNodes[0].nodeValue
+        + downloads[i].childNodes[1].childNodes[1].childNodes[0].nodeValue
         + "' download>GUI</a><div class='downloadDesc'>"
-        + xmlDoc.getElementsByTagName("download")[i].childNodes[2].childNodes[0].nodeValue
+        + downloads[i].childNodes[2].childNodes[0].nodeValue
         + "</div></div>"
     }
 
-    document.getElementById("downloads").innerHTML = htmlBuffer;
+    $("#downloads").html(htmlBuffer);
 }
