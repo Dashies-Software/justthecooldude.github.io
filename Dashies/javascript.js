@@ -16,7 +16,7 @@ function LoadFromJson() {
             var htmlBuffer = "";
         
             for(var i = 0; i < downloads.length; i++){
-                htmlBuffer += `<div class='download'><span class='downloadName'>${downloads[i].name}</span><div class='downloadDesc'>${downloads[i].desc}</div><a href='${downloads[i].urlConsole}' download><button class='downloadButton' ${downloads[i].urlConsole == null ? "disabled" : "" }>CON</button></a><a href='${downloads[i].urlGUI}' download${downloads[i].urlGUI == null ? "disabled" : "" }><button class='downloadButton'>GUI</button></a></div>`;
+                htmlBuffer += `<div class='download'><span class='downloadName'>${downloads[i].name}</span><div class='downloadDesc'>${downloads[i].desc}</div><a href='${downloads[i].urlConsole}' download><button class='downloadButton' ${downloads[i].urlConsole == null ? "disabled" : "" }>CON</button></a><a href='${downloads[i].urlGUI}' download><button class='downloadButton' ${downloads[i].urlGUI == null ? "disabled" : "" }>GUI</button></a></div>`;
             }
         
             $("#downloads").html(htmlBuffer);
