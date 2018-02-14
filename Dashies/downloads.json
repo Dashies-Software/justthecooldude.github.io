@@ -1,14 +1,15 @@
 [
     {
         "name":"Awesome Exploit",
+        "desc":"dis app is amaze",
         "urlConsole":"https://realsite.com/download.file",
-        "urlGUI":"https://realsite.com/downloadGUI.file",
-        "desc":"dis app is amaze"            
+        "urlGUI":"https://realsite.com/downloadGUI.file"
+                    
     },
     {
         "name":"AppName2",
+        "desc":"dis other app is also amaze",
         "urlConsole":"https://realsite.com/download2.file",
-        "urlGUI":"https://realsite.com/download2GUI.file",
-        "desc":"dis other app is also amaze"            
+        "urlGUI":"https://realsite.com/download2GUI.file"
     }
 ]
