@@ -11,90 +11,216 @@
         "desc":"",
         "ConsoleFileName":"",
         "GUIFileName":"Account Manager GUI Advanced Improved Premium Release.rar",
-        "categories" : ["Utilities", "Premium"]
+        "categories":["Utilities", "Premium"]
     },
     {
         "name":"Advanced Windows Firewall Manager Console x64 x86",
         "desc":"",
         "ConsoleFileName":"Advanced Windows Firewall Manager Console x64 x86.rar",
         "GUIFileName":"",
-        "categories" : ["Utilities", "Stable"]
+        "categories":["Utilities", "Stable"]
     },
     {
         "name":"Basic Vulnerability Launcher",
         "desc":"",
         "ConsoleFileName":"Basic Vulnerability Launcher.rar",
         "GUIFileName":"",
-        "categories" : ["Exploits", "Stable"]
+        "categories":["Exploits", "Stable"]
     },
     {
         "name":"Clean Manager GUI Release",
         "desc":"",
         "ConsoleFileName":"Cleaning Manager Premium Release Console.rar",
         "GUIFileName":"Clean Manager GUI Release.rar",
-        "categories" : ["Utilities"]
+        "categories":["Utilities"]
     },
     {
         "name":"Code Helper Console",
         "desc":"",
         "ConsoleFileName":"Code Helper Console.rar",
         "GUIFileName":"",
-        "categories" : ["Utilities", "Stable"]
+        "categories":["Utilities", "Stable"]
     },
     {
         "name":"Command Line Tool",
         "desc":"",
         "ConsoleFileName":"Command Line Tool.rar",
         "GUIFileName":"",
-        "categories" : ["Utilities", "Stable"]
+        "categories":["Utilities", "Stable"]
     },
     {
         "name":"DNS Manager GUI Release",
         "desc":"",
         "ConsoleFileName":"DNS Manager.rar",
         "GUIFileName":"DNS Manager GUI Release.rar",
-        "categories" : ["Utilities", "Stable"]
+        "categories":["Utilities", "Stable"]
     },
     {
-        "name":"Dash Cleaning Manager GUI Premium Release 2.0 Improved",
-        "desc":"",
+        "name":"Dash Cleaning Manager",
+        "desc":"Release 2.0",
         "ConsoleFileName":"",
         "GUIFileName":"Dash Cleaning Manager GUI Premium Release 2.0 Improved.rar",
-        "categories" : ["Utilities","Premium"]
+        "categories":["Utilities","Premium"]
+    },
+    {
+        "name":"Dash Security Manager GUI",
+        "desc":"Pre-Release",
+        "ConsoleFileName":"",
+        "GUIFileName":"Dash Security Manager GUI Pre-Release.rar",
+        "categories":["Utilities", "Beta"]
+    },
+    {
+        "name":"DashCraft Vote Program//Outdated",
+        "desc":"",
+        "ConsoleFileName":"DashCraft Vote Program.rar",
+        "GUIFileName":"",
+        "categories":["Outdated"]
+    },
+    {
+        "name":"Desktop Information Tool",
+        "desc":"",
+        "ConsoleFileName":"Desktop Information Tool Simple Stable Build.rar",
+        "GUIFileName":"",
+        "categories":["Utilities","Stable"]
+    },
+    {
+        "name":"Dump Manager With Installer",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"Dump Manager With Installer - GUI RELEASE.rar",
+        "categories":["Utilities","Stable"]
+    },    
+    {
+        "name":"Extension Wipe",
+        "desc":"",
+        "ConsoleFileName":"Extension Wipe.rar",
+        "GUIFileName":"",
+        "categories":["Utilities","Stable"]
+    },      
+    {
+        "name":"Fake Virus Generator",
+        "desc":"Release 1",
+        "ConsoleFileName":"",
+        "GUIFileName":"Fake Virus Generator GUI Release 1.rar",
+        "categories":["Exploits","Stable"]
+    },      
+    {
+        "name":"File and Directory Manager",
+        "desc":"Stable 4.0",
+        "ConsoleFileName":"",
+        "GUIFileName":"File and Directory Manager Stable 4.0.rar",
+        "categories":["Utilities","Stable"]
+    },      
+    {
+        "name":"Firewall Reset Tool",
+        "desc":"",
+        "ConsoleFileName":"Firewall Reset Tool Console Release.rar",
+        "GUIFileName":"Firewall Reset Tool GUI Release.rar",
+        "categories":["Utilities","Stable"]
+    },      
+    {
+        "name":"Firewall State",
+        "desc":"But is it in beta or is it stable. hmmmm.",
+        "ConsoleFileName":"Firewall State BETA.rar",
+        "GUIFileName":"",
+        "categories":["Utilities","Stable"]
+    },      
+    {
+        "name":"IP Tool",
+        "desc":"Release 2",
+        "ConsoleFileName":"IP Tool Release 2.",
+        "GUIFileName":"",
+        "categories":["Utilities","Beta"]
+    },      
+    {
+        "name":"Installer wamgr 2.0",
+        "desc":"",
+        "ConsoleFileName":"Installerwamgr-2.exe",
+        "GUIFileName":"",
+        "categories":["Misc","Alpha"]
+    },      
+    {
+        "name":"Instant Username.rar",
+        "desc":"",
+        "ConsoleFileName":"Instant Username.rar",
+        "GUIFileName":"",
+        "categories":["Utilities","Stable"]
+    },      
+    {
+        "name":"Internet Connection Status",
+        "desc":"",
+        "ConsoleFileName":"Internet Connection Status Simple Stable Console Release.rar",
+        "GUIFileName":"",
+        "categories":["Utilities","Stable"]
+    },      
+    {
+        "name":"Invisible Launcher",
+        "desc":"",
+        "ConsoleFileName":"Invisible Launcher BETA.rar",
+        "GUIFileName":"",
+        "categories":["Exploits","Beta"]
+    },      
+    {
+        "name":"Ip Generator",
+        "desc":"",
+        "ConsoleFileName":"Ip Generator.rar",
+        "GUIFileName":"Ip Generator GUI Release.rar",
+        "categories":["Exploits","Stable"]
+    },      
+    {
+        "name":"Ip Guessing",
+        "desc":"",
+        "ConsoleFileName":"Ip Guessing.rar",
+        "GUIFileName":"",
+        "categories":["Exploits","Stable"]
+    },      
+    {
+        "name":"Key Logger _",
+        "desc":"",
+        "ConsoleFileName":"Key Logger _.rar",
+        "GUIFileName":"",
+        "categories":["Exploits", "Stable"]
+    },      
+    {
+        "name":"",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"",
+        "categories":[]
+    },      
+    {
+        "name":"",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"",
+        "categories":[]
+    },      
+    {
+        "name":"",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"",
+        "categories":[]
+    },    
+    {
+        "name":"",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"",
+        "categories":[]
+    },    
+    {
+        "name":"",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"",
+        "categories":[]
     },
     {
         "name":"",
         "desc":"",
         "ConsoleFileName":"",
         "GUIFileName":"",
-        "categories" : []
-    },
-    {
-        "name":"",
-        "desc":"",
-        "ConsoleFileName":"",
-        "GUIFileName":"",
-        "categories" : []
-    },
-    {
-        "name":"",
-        "desc":"",
-        "ConsoleFileName":"",
-        "GUIFileName":"",
-        "categories" : []
-    },
-    {
-        "name":"",
-        "desc":"",
-        "ConsoleFileName":"",
-        "GUIFileName":"",
-        "categories" : []
-    },
-    {
-        "name":"",
-        "desc":"",
-        "ConsoleFileName":"",
-        "GUIFileName":"",
-        "categories" : []
+        "categories":[]
     }
 ]
