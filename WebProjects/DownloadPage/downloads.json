@@ -1,15 +1,101 @@
 [
     {
-        "name":"Awesome Exploit",
-        "desc":"dis app is amaze",
-        "urlConsole": null,
-        "urlGUI": null
-                    
+        "name":"20 Percent Cooler",
+        "desc":"",
+        "ConsoleFileName":"20 Percent Cooler.RAR",
+        "GUIFileName":"",
+        "categories" : ["Misc", "Stable"]
     },
     {
-        "name":"AppName2",
-        "desc":"dis other app is also amaze",
-        "urlConsole":"https://realsite.com/download2.file",
-        "urlGUI":"https://realsite.com/download2GUI.file"
-    }
+        "name":"Account Manager GUI Advanced Improved Premium Release",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"Account Manager GUI Advanced Improved Premium Release.rar",
+        "categories" : ["Utilities", "Premium"]
+    },
+    {
+        "name":"Advanced Windows Firewall Manager Console x64 x86",
+        "desc":"",
+        "ConsoleFileName":"Advanced Windows Firewall Manager Console x64 x86.rar",
+        "GUIFileName":"",
+        "categories" : ["Utilities", "Stable"]
+    },
+    {
+        "name":"Basic Vulnerability Launcher",
+        "desc":"",
+        "ConsoleFileName":"Basic Vulnerability Launcher.rar",
+        "GUIFileName":"",
+        "categories" : ["Exploits", "Stable"]
+    },
+    {
+        "name":"Clean Manager GUI Release",
+        "desc":"",
+        "ConsoleFileName":"Cleaning Manager Premium Release Console.rar",
+        "GUIFileName":"Clean Manager GUI Release.rar",
+        "categories" : ["Utilities"]
+    },
+    {
+        "name":"Code Helper Console",
+        "desc":"",
+        "ConsoleFileName":"Code Helper Console.rar",
+        "GUIFileName":"",
+        "categories" : ["Utilities", "Stable"]
+    },
+    {
+        "name":"Command Line Tool",
+        "desc":"",
+        "ConsoleFileName":"Command Line Tool.rar",
+        "GUIFileName":"",
+        "categories" : ["Utilities", "Stable"]
+    },
+    {
+        "name":"DNS Manager GUI Release",
+        "desc":"",
+        "ConsoleFileName":"DNS Manager.rar",
+        "GUIFileName":"DNS Manager GUI Release.rar",
+        "categories" : [""]
+    },
+    {
+        "name":"",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"",
+        "categories" : [""]
+    },
+    {
+        "name":"",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"",
+        "categories" : [""]
+    },
+    {
+        "name":"",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"",
+        "categories" : [""]
+    },
+    {
+        "name":"",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"",
+        "categories" : [""]
+    },
+    {
+        "name":"",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"",
+        "categories" : [""]
+    },
+    {
+        "name":"",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"",
+        "categories" : [""]
+    },
+
 ]
