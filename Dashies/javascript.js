@@ -1,6 +1,44 @@
 
+var xmlString =
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?>"+
+
+"<download_list>"+
+    "<download>"+
+        "<name>generic payload</name>"+
+        "<url>"+
+            "<con>downloadsLocation/gey.txt</con>"+
+            "<gui>https://realwebsite.really/download/payloadgui.file</gui>"+
+        "</url>"+
+        "<desc>real amaze payload mkay</desc>"+
+    "</download>"+
+    "<download>"+
+        "<name>generic payload #2</name>"+
+        "<url>"+
+            "<con>https://realwebsite.really/download/payload2.file</con>"+
+            "<gui>https://realwebsite.really/download/payloadgui2.file</gui>"+
+        "</url>"+
+        "<desc>real amaze payload #2 guiguiguigujkmguuyukjghjkmfghjmghjnmgchmcghnjghnnfn</desc>"+
+    "</download>"+
+    "<download>"+
+    "<name>generic payload #2</name>"+
+    "<url>"+
+        "<con>https://realwebsite.really/download/payload2.file</con>"+
+        "<gui>https://realwebsite.really/download/payloadgui2.file</gui>"+
+    "</url>"+
+    "<desc>real amaze payload #2 guiguiguigujkmguuyukjghjkmfghjmghjnmgchmcghnjghnnfn</desc>"+
+"</download>"+
+"<download>"+
+"<name>generic payload #2</name>"+
+"<url>"+
+    "<con>https://realwebsite.really/download/payload2.file</con>"+
+    "<gui>https://realwebsite.really/download/payloadgui2.file</gui>"+
+"</url>"+
+"<desc>real amaze payload #2 guiguiguigujkmguuyukjghjkmfghjmghjnmgchmcghnjghnnfn</desc>"+
+"</download>"+
+"</download_list>";
+
 $(document).ready(function (){
-    LoadDownloads();
+    parseXmlToList(xmlString);
 });
 
 var downloads;
@@ -14,6 +52,7 @@ function LoadDownloads() {
     xhttp.open("GET", "downloads.xml", true);
     xhttp.send();
 }
+
 
 
 function parseXmlToList(_xmlString){

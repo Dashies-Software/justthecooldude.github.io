@@ -6,7 +6,7 @@ body {
 #downloads {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 
     border-radius: 12px;
 
@@ -32,6 +32,8 @@ body {
 
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border-bottom: 1px;
+    border-color: black;
 
     background-color: rgb(109, 109, 109);
 }
@@ -63,6 +65,8 @@ body {
 }
 
 .downloadDesc{
+    display: block;
+
     padding: 4px;
 
     text-overflow: ellipsis;
