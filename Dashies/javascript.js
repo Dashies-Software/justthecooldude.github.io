@@ -58,7 +58,7 @@ function parseXmlToList(_xmlString){
     else console.log(downloads.length);
     var htmlBuffer = "";
 
-    for(var i = 0; i < 1; i++){
+    for(var i = 0; i < downloads.length; i++){
         htmlBuffer += "<br><div class='download'><span class='downloadName'>"
         + downloads[i].childNodes[0].childNodes[0].nodeValue
         + "</span><a href='"
