@@ -31,18 +31,23 @@ $(document).ready(function (){
     parseXmlToList(xmlString);
 });
 
-var onlineXmlDoc;
+var downloads;
 function LoadDownloads() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            onlineXmlDoc = xhttp.responseXML;
+            downloads = xhttp.responseXML.getElementsByTagName("download");
+        }
+    };
+    xhttp.open("GET", "downloads.xml", true);
+    xhttp.send();
 
-            var downloads = onlineXmlDoc.getElementsByTagName("download");
-
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            
             if(downloads.length <= 0) return;
             var htmlBuffer = "";
-        
+            
             for(var i = 0; i < downloads.length; i++){
                 htmlBuffer += "<br><div class='download'><span class='downloadName'>"
                 + downloads[i].childNodes[0].childNodes[0].nodeValue
@@ -54,15 +59,14 @@ function LoadDownloads() {
                 + downloads[i].childNodes[2].childNodes[0].nodeValue
                 + "</div></div>"
             }
-        
+            
             $("#downloads").html(htmlBuffer);
+
         }
     };
-    xhttp.open("GET", "downloads.xml", true);
-    xhttp.send();
-
-
 }
+
+
 
 function parseXmlToList(_xmlString){
     console.log(_xmlString);
