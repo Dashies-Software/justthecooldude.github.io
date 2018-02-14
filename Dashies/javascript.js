@@ -1,7 +1,7 @@
 
 
 $(document).ready(function (){
-    parseXmlToList(xmlString);
+    LoadDownloads();
 });
 
 var downloads;
