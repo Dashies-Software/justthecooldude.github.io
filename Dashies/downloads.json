@@ -2,8 +2,8 @@
     {
         "name":"Awesome Exploit",
         "desc":"dis app is amaze",
-        "urlConsole":"https://realsite.com/download.file",
-        "urlGUI":"https://realsite.com/downloadGUI.file"
+        "urlConsole": null,
+        "urlGUI": null
                     
     },
     {
