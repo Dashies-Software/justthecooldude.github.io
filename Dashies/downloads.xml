@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 
-=======
->>>>>>> 4a041aa08b1d96e51609cf911b8152abc18a9c08
 <download_list>
     <download>
         <name>generic payload</name>
@@ -12,7 +9,6 @@
         </url>
         <desc>real amaze payload mkay</desc>
     </download>
-<<<<<<< HEAD
     <download>
         <name>generic payload #2</name>
         <url>
@@ -22,6 +18,3 @@
         <desc>real amaze payload #2 mkay</desc>
     </download>
 </download_list>
-=======
-</download_list>
->>>>>>> 4a041aa08b1d96e51609cf911b8152abc18a9c08
