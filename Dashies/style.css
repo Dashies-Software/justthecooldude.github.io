@@ -1,12 +1,72 @@
+body {
+    font-family: roboto;
+}
+
+
+#downloads {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background-color: rgb(214, 214, 214);
+}
+
 .download {
+    margin: 3px;
+    border-radius: 5px;
+
+    max-width: 400px;
+
     background-color: rgb(136, 136, 136);
 }
 
 .downloadName{
+    display: block;
+
+    padding: 2px;
+
+    font-weight: bold;
+    font-size: 22pt;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
     background-color: rgb(109, 109, 109);
-
 }
 
-#downloads {
-    background-color: blueviolet;
+.downloadButton{
+    bottom: 0px;
+
+    font-size: 12pt;
+
+    margin: 1px;
+
+    border: none;
+    border-radius: 3px;
+
+    background-color: gray;
+    color: darkgray;
+
+    outline: none;
 }
+
+.downloadButton:hover{
+    color: black;
+}
+
+.downloadButton:disabled {
+    background-color: rgb(114, 114, 114);
+
+    color: rgb(148, 148, 148);
+}
+
+.downloadDesc{
+    padding: 4px;
+
+    text-overflow: ellipsis;
+
+    word-wrap: break-word;
+}
+

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- WhiteSpace is illegal :v -->
 <download_list>
 <download>
 <name>generic payload</name>
@@ -14,6 +15,6 @@
 <con>https://realwebsite.really/download/payload2.file</con>
 <gui>https://realwebsite.really/download/payloadgui2.file</gui>
 </url>
-<desc>real amaze payload #2 mkay</desc>
+<desc>real amaze payload #2</desc>
 </download>
 </download_list>
