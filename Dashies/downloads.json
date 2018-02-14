@@ -1,0 +1,14 @@
+[
+    {
+        "name":"AppName",
+        "urlConsole":"https://realsite.com/download.file",
+        "urlGUI":"https://realsite.com/downloadGUI.file",
+        "desc":"dis app is amaze"            
+    },
+    {
+        "name":"AppName2",
+        "urlConsole":"https://realsite.com/download2.file",
+        "urlGUI":"https://realsite.com/download2GUI.file",
+        "desc":"dis other app is also amaze"            
+    }
+]
