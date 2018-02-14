@@ -46,15 +46,19 @@ function LoadDownloads() {
 
 
 function parseXmlToList(_xmlString){
+
+    console.log(_xmlString);
+
     parser = new DOMParser();
     xmlDoc = parser.parseFromString(_xmlString,"text/xml");
 
     var downloads = xmlDoc.getElementsByTagName("download");
 
     if(downloads.length <= 0) return;
+    else console.log(downloads.length);
     var htmlBuffer = "";
 
-    for(var i = 0; i < downloads.length; i++){
+    for(var i = 0; i < 1; i++){
         htmlBuffer += "<br><div class='download'><span class='downloadName'>"
         + downloads[i].childNodes[0].childNodes[0].nodeValue
         + "</span><a href='"
@@ -68,3 +72,5 @@ function parseXmlToList(_xmlString){
 
     $("#downloads").html(htmlBuffer);
 }
+
+
