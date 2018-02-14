@@ -53,49 +53,48 @@
         "desc":"",
         "ConsoleFileName":"DNS Manager.rar",
         "GUIFileName":"DNS Manager GUI Release.rar",
-        "categories" : [""]
+        "categories" : ["Utilities", "Stable"]
+    },
+    {
+        "name":"Dash Cleaning Manager GUI Premium Release 2.0 Improved",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"Dash Cleaning Manager GUI Premium Release 2.0 Improved.rar",
+        "categories" : ["Utilities","Premium"]
     },
     {
         "name":"",
         "desc":"",
         "ConsoleFileName":"",
         "GUIFileName":"",
-        "categories" : [""]
+        "categories" : []
     },
     {
         "name":"",
         "desc":"",
         "ConsoleFileName":"",
         "GUIFileName":"",
-        "categories" : [""]
+        "categories" : []
     },
     {
         "name":"",
         "desc":"",
         "ConsoleFileName":"",
         "GUIFileName":"",
-        "categories" : [""]
+        "categories" : []
     },
     {
         "name":"",
         "desc":"",
         "ConsoleFileName":"",
         "GUIFileName":"",
-        "categories" : [""]
+        "categories" : []
     },
     {
         "name":"",
         "desc":"",
         "ConsoleFileName":"",
         "GUIFileName":"",
-        "categories" : [""]
-    },
-    {
-        "name":"",
-        "desc":"",
-        "ConsoleFileName":"",
-        "GUIFileName":"",
-        "categories" : [""]
-    },
-
+        "categories" : []
+    }
 ]
