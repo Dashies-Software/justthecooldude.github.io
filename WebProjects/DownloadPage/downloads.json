@@ -7,14 +7,14 @@
         "categories" : ["Misc", "Stable"]
     },
     {
-        "name":"Account Manager GUI Advanced Improved Premium Release",
+        "name":"Account Manager GUI",
         "desc":"",
         "ConsoleFileName":"",
         "GUIFileName":"Account Manager GUI Advanced Improved Premium Release.rar",
         "categories":["Utilities", "Premium"]
     },
     {
-        "name":"Advanced Windows Firewall Manager Console x64 x86",
+        "name":"Advanced Windows Firewall Manager",
         "desc":"",
         "ConsoleFileName":"Advanced Windows Firewall Manager Console x64 x86.rar",
         "GUIFileName":"",
@@ -28,14 +28,14 @@
         "categories":["Exploits", "Stable"]
     },
     {
-        "name":"Clean Manager GUI Release",
+        "name":"Clean Manager",
         "desc":"",
         "ConsoleFileName":"Cleaning Manager Premium Release Console.rar",
         "GUIFileName":"Clean Manager GUI Release.rar",
         "categories":["Utilities"]
     },
     {
-        "name":"Code Helper Console",
+        "name":"Code Helper",
         "desc":"",
         "ConsoleFileName":"Code Helper Console.rar",
         "GUIFileName":"",
@@ -49,7 +49,7 @@
         "categories":["Utilities", "Stable"]
     },
     {
-        "name":"DNS Manager GUI Release",
+        "name":"DNS Manager",
         "desc":"",
         "ConsoleFileName":"DNS Manager.rar",
         "GUIFileName":"DNS Manager GUI Release.rar",
@@ -63,7 +63,7 @@
         "categories":["Utilities","Premium"]
     },
     {
-        "name":"Dash Security Manager GUI",
+        "name":"Dash Security Manager",
         "desc":"Pre-Release",
         "ConsoleFileName":"",
         "GUIFileName":"Dash Security Manager GUI Pre-Release.rar",
@@ -74,7 +74,7 @@
         "desc":"",
         "ConsoleFileName":"DashCraft Vote Program.rar",
         "GUIFileName":"",
-        "categories":["Outdated"]
+        "categories":["Utilities","Outdated"]
     },
     {
         "name":"Desktop Information Tool",
@@ -182,45 +182,234 @@
         "categories":["Exploits", "Stable"]
     },      
     {
-        "name":"",
+        "name":"Keys",
         "desc":"",
-        "ConsoleFileName":"",
+        "ConsoleFileName":"Keys.zip",
         "GUIFileName":"",
-        "categories":[]
+        "categories":["Misc", "Stable"]
     },      
     {
-        "name":"",
+        "name":"Minecraft Manager//Outdated",
         "desc":"",
-        "ConsoleFileName":"",
+        "ConsoleFileName":"Minecraft Manager BETA.rar",
         "GUIFileName":"",
-        "categories":[]
+        "categories":["Misc","Outdated"]
     },      
     {
-        "name":"",
+        "name":"Mouse Swapper",
         "desc":"",
         "ConsoleFileName":"",
-        "GUIFileName":"",
-        "categories":[]
+        "GUIFileName":"Mouse Swapper GUI.rar",
+        "categories":["Utilities","Stable"]
     },    
     {
-        "name":"",
+        "name":"My Little Pony Manager 3",
         "desc":"",
-        "ConsoleFileName":"",
-        "GUIFileName":"",
-        "categories":[]
+        "ConsoleFileName":"My Little Pony Manager 3 Console.rar",
+        "GUIFileName":"My Little Pony Manager 3 GUI.rar",
+        "categories":["Utilities","Stable"]
     },    
     {
-        "name":"",
-        "desc":"",
+        "name":"My Little Pony Manager",
+        "desc":"Somehow different from other",
         "ConsoleFileName":"",
-        "GUIFileName":"",
-        "categories":[]
+        "GUIFileName":"My Little Pony Manager GUI RELEASE.rar",
+        "categories":["Utilities","Stable"]
     },
     {
-        "name":"",
+        "name":"My System Information",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"My System Information.rar",
+        "categories":["Utilities","Stable"]
+    },
+    {
+        "name":"Net View Beta",
+        "desc":"",
+        "ConsoleFileName":"Net View Beta.rar",
+        "GUIFileName":"Net View GUI Beta Release.rar",
+        "categories":["Exploits","Stable"]
+    },
+    {
+        "name":"Netsh Manager With Installer",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"Netsh Manager With Installer - GUI RELEASE.rar",
+        "categories":["Utilities","Stable"]
+    },
+    {
+        "name":"Netstat Manager Setup Installer.rar",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"Netstat Manager GUI Release Setup Installer.rar",
+        "categories":["Utilities","Stable"]
+    },
+    {
+        "name":"Network Manager With Installer",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"Network Manager With Installer - GUI Release.rar",
+        "categories":["Utilities","Stable"]
+    },
+    {
+        "name":"Old School HipHop Manager//Outdated",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"Old School HipHop Manager.rar",
+        "categories":["Misc","Outdated"]
+    },
+    {
+        "name":"Payload Pack Beta",
+        "desc":"Stable Package",
+        "ConsoleFileName":"Payload Pack Beta Release - Stable Package.rar",
+        "GUIFileName":"",
+        "categories":["Exploits", "Beta"]
+    },
+    {
+        "name":"Pinger Tool",
+        "desc":"",
+        "ConsoleFileName":"Pinger Tool Premium Release.rar",
+        "GUIFileName":"",
+        "categories":["Utilities","Premium"]
+    },
+    {
+        "name":"Quote Of The Dayuz//Outdated",
+        "desc":"",
+        "ConsoleFileName":"Quote Of The Dayuz.rar",
+        "GUIFileName":"",
+        "categories":["Misc","Outdated"]
+    },
+    {
+        "name":"Random Program",
+        "desc":"",
+        "ConsoleFileName":"Random Program.rar",
+        "GUIFileName":"",
+        "categories":["Misc","Outdated"]
+    },
+    {
+        "name":"Sec Manager",
+        "desc":"Release 2",
+        "ConsoleFileName":"Sec Manager Release 2.rar",
+        "GUIFileName":"Sec Manager GUI Release.rar",
+        "categories":["Utilities","Stable"]
+    },
+    {
+        "name":"Shutdown Virus",
+        "desc":"",
+        "ConsoleFileName":"Shutdown Virus.rar",
+        "GUIFileName":"",
+        "categories":["Exploits","Stable"]
+    },
+    {
+        "name":"Simple Invisible Popup Spammer",
+        "desc":"",
+        "ConsoleFileName":"Simple Invisible Popup Spammer.rar",
+        "GUIFileName":"",
+        "categories":["Exploits","Stable"]
+    },
+    {
+        "name":"Startup Manager Advanced",
+        "desc":"Release 2.0",
+        "ConsoleFileName":"Startup Manager Advanced Console 2.0.rar",
+        "GUIFileName":"Startup Manager Advanced GUI 2.0.rar",
+        "categories":["Utilities","Stable"]
+    },
+    {
+        "name":"Startup Popup Spam Virus",
+        "desc":"",
+        "ConsoleFileName":"Startup Popup Spam Virus.rar",
+        "GUIFileName":"",
+        "categories":["Exploits","Stable"]
+    },
+    {
+        "name":"System Information Manager",
+        "desc":"",
+        "ConsoleFileName":"System Information Manager Console 1.0.rar",
+        "GUIFileName":"System Information Manager GUI 1.0.rar",
+        "categories":["Utilities","Stable"]
+    },
+    {
+        "name":"Time Clock.rar",
+        "desc":"",
+        "ConsoleFileName":"Time Clock.rar",
+        "GUIFileName":"",
+        "categories":["Utilities","Stable"]
+    },
+    {
+        "name":"Trial Deactivation",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"Trial Deactivation GUI x64 x86.rar",
+        "categories":["Cracked","Stable"]
+    },
+    {
+        "name":"UnpackMe",
+        "desc":"",
+        "ConsoleFileName":"UnpackMe.rar",
+        "GUIFileName":"",
+        "categories":["Exploits","Stable"]
+    },
+    {
+        "name":"Calculator",
+        "desc":"",
+        "ConsoleFileName":"Updated Calculater Release.rar",
+        "GUIFileName":"",
+        "categories":["Utilities","Stable"]
+    },
+    {
+        "name":"Web Search Tool",
+        "desc":"Release 3.0",
+        "ConsoleFileName":"Web Search Tool Advanced 3.0.rar",
+        "GUIFileName":"",
+        "categories":["Utilities","Stable"]
+    },
+    {
+        "name":"What Is That File Size",
+        "desc":"",
+        "ConsoleFileName":"What Is That File Size.rar",
+        "GUIFileName":"",
+        "categories":["Misc","Stable"]
+    },
+    {
+        "name":"Windows Auto-Activation Deactivater",
+        "desc":"",
+        "ConsoleFileName":"Windows Auto-Activation Deactivater.rar",
+        "GUIFileName":"",
+        "categories":["Cracked","Stable"]
+    },
+    {
+        "name":"Windows Extender Free",
         "desc":"",
         "ConsoleFileName":"",
         "GUIFileName":"",
-        "categories":[]
+        "categories":["Cracked","Stable"]
+    },
+    {
+        "name":"Windows Manager Advanced",
+        "desc":"Release 3.0",
+        "ConsoleFileName":"Windows Manager Advanced 3.0 Console.rar",
+        "GUIFileName":"Windows Manager Advanced 3.0 GUI.rar",
+        "categories":["Cracked","Stable"]
+    },
+    {
+        "name":"Windows Manager GUI _no installer_",
+        "desc":"",
+        "ConsoleFileName":"",
+        "GUIFileName":"Windows Manager GUI _no installer_.rar",
+        "categories":["Cracked","Stable"]
+    },
+    {
+        "name":"Youtube Frame Console//Outdated",
+        "desc":"From Dashie",
+        "ConsoleFileName":"Youtube Frame Console by Dashie.rar",
+        "GUIFileName":"",
+        "categories":["Cracked","Outdated"]
+    },
+    {
+        "name":"Haxor Challenge.rar",
+        "desc":"We challenge thee!",
+        "ConsoleFileName":"Haxor Challenge.rar",
+        "GUIFileName":"",
+        "categories":["Exploits", "Beta"]
     }
 ]
