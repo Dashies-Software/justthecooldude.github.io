@@ -6,7 +6,6 @@
  * 
  */
 
-
 var downloadLocation = "http://www.dashware-software.co.uk/Direct_Filez/Software_Lookup/";
 
 $(document).ready(function (){

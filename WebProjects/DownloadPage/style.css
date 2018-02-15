@@ -28,12 +28,16 @@ body {
     padding: 2px;
 
     font-weight: bold;
-    font-size: 22pt;
+    font-size: 14pt;
 
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom: 1px;
-    border-color: black;
+    
+    border-style: solid;
+    border-bottom: 12px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
 
     background-color: rgb(109, 109, 109);
 }
@@ -42,6 +46,8 @@ body {
     bottom: 0px;
 
     font-size: 12pt;
+    font-weight: 600;
+    line-height: 16px;
 
     margin: 1px;
 

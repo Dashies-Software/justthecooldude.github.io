@@ -120,7 +120,7 @@
     },      
     {
         "name":"Firewall State",
-        "desc":"But is it in beta or is it stable. hmmmm.",
+        "desc":"",
         "ConsoleFileName":"Firewall State BETA.rar",
         "GUIFileName":"",
         "categories":["Utilities","Stable"]
