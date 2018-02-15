@@ -29,10 +29,7 @@ function LoadFromJson() {
             }
         
             $("#downloads").html(htmlBuffer);
-         
         }
     };
     rawFile.send(null);
 }
-
-
